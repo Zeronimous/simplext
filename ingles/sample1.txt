@@ -1,0 +1,13 @@
+[Some initial game data here]
+{
+    "scene_data": {
+        "id": "forest_01",
+        "characters": ["Hero", "Mystic"]
+    },
+    "dialogue_stream": [
+        {"ID":101, "Speaker":"Hero", "English":"Hello, Mystic. I've brought the <A>artifact</A> you requested.","TimeStamp":"10.5"},
+        {"ID":102, "Speaker":"Mystic", "English":"Ah, excellent. The prophecy spoke of this moment. It said: 'The one who is <b>brave</b> shall bring forth the <T>light.'","TimeStamp":"15.2"},
+        {"ID":103, "Speaker":"Hero", "English":"So what happens now?","TimeStamp":"20.1"}
+    ]
+}
+[Some other data at the end of the file]
