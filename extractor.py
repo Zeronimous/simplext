@@ -59,14 +59,18 @@ def main():
                 # Determinar si el segmento es texto o marcador
                 # re.split con un grupo de captura alterna texto y delimitador
                 # Los textos están en los índices pares, los marcadores en los impares.
-                segment_type = 'marker' if i % 2 != 0 else 'text'
+                # Determinar si el segmento es texto o marcador
+                is_marker = i % 2 != 0
+
+                text_content = "" if is_marker else segment
+                marker_content = segment if is_marker else ""
 
                 csv_rows.append([
                     filepath,
                     string_id_counter,
                     sequence_counter,
-                    segment_type,
-                    segment
+                    text_content,
+                    marker_content
                 ])
                 sequence_counter += 1
 
@@ -75,7 +79,7 @@ def main():
         return
 
     # Escribir todas las filas en el archivo CSV
-    header = ['source_file', 'string_id', 'sequence', 'type', 'content']
+    header = ['source_file', 'string_id', 'sequence', 'text_content', 'marker_content']
     with open(OUTPUT_CSV_FILE, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(header)

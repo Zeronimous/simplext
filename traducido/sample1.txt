@@ -6,7 +6,7 @@
     },
     "dialogue_stream": [
         {"ID":101, "Speaker":"Hero", "English":"Hola, Místico. He traído el<A>artefacto</A>que pediste.","TimeStamp":"10.5"},
-        {"ID":102, "Speaker":"Mystic", "English":"Ah, excelente. La profecía habló de este momento. Dijo: 'Aquel que es<b>valiente</b>traerá la "<T>luz.'"","TimeStamp":"15.2"},
+        {"ID":102, "Speaker":"Mystic", "English":"Ah, excelente. La profecía habló de este momento. Dijo: 'Aquel que es<b>valiente</b>traerá la<T>luz.'","TimeStamp":"15.2"},
         {"ID":103, "Speaker":"Hero", "English":"¿Y ahora qué pasa?","TimeStamp":"20.1"}
     ]
 }

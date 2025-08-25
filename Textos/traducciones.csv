@@ -1,14 +1,14 @@
-source_file,string_id,sequence,type,content
-ingles/sample1.txt,1,0,text,"Hello, Mystic. I've brought the "
-ingles/sample1.txt,1,1,marker,<A>
-ingles/sample1.txt,1,2,text,artifact
-ingles/sample1.txt,1,3,marker,</A>
-ingles/sample1.txt,1,4,text, you requested.
-ingles/sample1.txt,2,0,text,"Ah, excellent. The prophecy spoke of this moment. It said: 'The one who is "
-ingles/sample1.txt,2,1,marker,<b>
-ingles/sample1.txt,2,2,text,brave
-ingles/sample1.txt,2,3,marker,</b>
-ingles/sample1.txt,2,4,text, shall bring forth the
-ingles/sample1.txt,2,5,marker,<T>
-ingles/sample1.txt,2,6,text,light.'
-ingles/sample1.txt,3,0,text,So what happens now?
+source_file,string_id,sequence,text_content,marker_content
+ingles/sample1.txt,1,0,"Hello, Mystic. I've brought the ",
+ingles/sample1.txt,1,1,,<A>
+ingles/sample1.txt,1,2,artifact,
+ingles/sample1.txt,1,3,,</A>
+ingles/sample1.txt,1,4, you requested.,
+ingles/sample1.txt,2,0,"Ah, excellent. The prophecy spoke of this moment. It said: 'The one who is ",
+ingles/sample1.txt,2,1,,<b>
+ingles/sample1.txt,2,2,brave,
+ingles/sample1.txt,2,3,,</b>
+ingles/sample1.txt,2,4, shall bring forth the ,
+ingles/sample1.txt,2,5,,<T>
+ingles/sample1.txt,2,6,light.',
+ingles/sample1.txt,3,0,So what happens now?,
